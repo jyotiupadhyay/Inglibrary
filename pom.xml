@@ -76,10 +76,11 @@
 
 	</dependencies>
 <distributionManagement>
-  <snapshotRepository>
-    <id>nexus</id>
-    <url>http://52.14.176.159:8081/nexus/content/repositories/snapshots</url>
-  </snapshotRepository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-17-53.us-east-2.compute.internal-snapshots</name>
+        <url>http://18.191.146.181:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
 </distributionManagement>
 	<build>
 		<plugins>
